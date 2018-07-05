@@ -140,21 +140,9 @@ var followByEmailtext = "Get E-mail updates about our latest shop and special of
 			<b:section class='top-bar-social blue' id='header social widget' maxwidgets='1' name='Top Social Widget' showaddelement='no'>
 <b:widget id='LinkList230' locked='true' title='Social Media Icons' type='LinkList' version='1'>
   <b:widget-settings>
-    <b:widget-setting name='link-5'>#</b:widget-setting>
-    <b:widget-setting name='link-6'>#</b:widget-setting>
-    <b:widget-setting name='link-3'>#</b:widget-setting>
-    <b:widget-setting name='link-4'>#</b:widget-setting>
-    <b:widget-setting name='text-1'>facebook</b:widget-setting>
-    <b:widget-setting name='text-0'>twitter</b:widget-setting>
-    <b:widget-setting name='text-3'>instagram</b:widget-setting>
-    <b:widget-setting name='text-2'>gplus</b:widget-setting>
-    <b:widget-setting name='text-5'>youtube</b:widget-setting>
-    <b:widget-setting name='text-4'>rss</b:widget-setting>
-    <b:widget-setting name='text-6'>pinterest</b:widget-setting>
     <b:widget-setting name='sorting'>NONE</b:widget-setting>
-    <b:widget-setting name='link-1'>#</b:widget-setting>
-    <b:widget-setting name='link-2'>#</b:widget-setting>
-    <b:widget-setting name='link-0'>#</b:widget-setting>
+    <b:widget-setting name='text-0'>instagram</b:widget-setting>
+    <b:widget-setting name='link-0'>http://instagram.com/juicyjusung</b:widget-setting>
   </b:widget-settings>
   <b:includable id='main'>
             <div class='widget-content'>
@@ -176,9 +164,9 @@ var followByEmailtext = "Get E-mail updates about our latest shop and special of
       <b:widget-settings>
         <b:widget-setting name='sorting'>NONE</b:widget-setting>
         <b:widget-setting name='text-1'>About</b:widget-setting>
-        <b:widget-setting name='link-1'>http://robusta-templatesyard.blogspot.in/p/about.html</b:widget-setting>
+        <b:widget-setting name='link-1'>/</b:widget-setting>
         <b:widget-setting name='text-0'>Home</b:widget-setting>
-        <b:widget-setting name='link-2'>http://robusta-templatesyard.blogspot.in/p/contact-us.html</b:widget-setting>
+        <b:widget-setting name='link-2'>/</b:widget-setting>
         <b:widget-setting name='link-0'>/</b:widget-setting>
         <b:widget-setting name='text-2'>Contact</b:widget-setting>
       </b:widget-settings>
@@ -204,7 +192,7 @@ var followByEmailtext = "Get E-mail updates about our latest shop and special of
 <div class='row' id='header-wrappers'>
     <div class='headerleft'> 
       <b:section class='headerleft' id='headerleft' maxwidgets='1' showaddelement='no'>
-         <b:widget id='Header1' locked='true' title='Robusta (Header)' type='Header' version='1'>
+         <b:widget id='Header1' locked='true' title='기억력이 안좋아서 만든 블로그(헤더)' type='Header' version='1'>
            <b:widget-settings>
              <b:widget-setting name='displayUrl'>http://3.bp.blogspot.com/-ULDUzEJq_n4/Wpg-QKH0vAI/AAAAAAAAEws/5ThNN6HW3k4LQtobWISl6C72BkzB09RWwCK4BGAYYCw/s1600/logo-2.png</b:widget-setting>
              <b:widget-setting name='displayHeight'>100</b:widget-setting>
@@ -287,9 +275,6 @@ var followByEmailtext = "Get E-mail updates about our latest shop and special of
 <div class='headerright'> 
 <b:section class='headerright' id='headerright' maxwidgets='1' showaddelement='yes'>
    <b:widget id='HTML1' locked='false' title='' type='HTML' version='1'>
-     <b:widget-settings>
-       <b:widget-setting name='content'><![CDATA[<center><a href="#"><img alt="LightBlog" src="https://1.bp.blogspot.com/-ItvU3r8vUco/VmO7oem2bTI/AAAAAAAACN0/wXHARZdv3M0/s1600-r/ad728.jpg" /></a></center>]]></b:widget-setting>
-     </b:widget-settings>
      <b:includable id='main'>
   <!-- only display title if it's non-empty -->
   <b:if cond='data:title != &quot;&quot;'>
@@ -316,6 +301,7 @@ var followByEmailtext = "Get E-mail updates about our latest shop and special of
               <b:widget-setting name='text-8'><![CDATA[&lt;i class=&quot;fa fa-book&quot;&gt;&lt;/i&gt; Documentation]]></b:widget-setting>
               <b:widget-setting name='link-7'>http://www.shardawebservices.com/</b:widget-setting>
               <b:widget-setting name='link-8'>https://www.sorabloggingtips.com/2018/03/how-to-setup-robusta-blogger-template.html</b:widget-setting>
+              <b:widget-setting name='text-10'>_Error Page</b:widget-setting>
               <b:widget-setting name='link-5'>https://www.sorabloggingtips.com/2017/01/how-to-add-sitemap-widget-in-blogspot-blogs.html</b:widget-setting>
               <b:widget-setting name='link-6'>http://robusta-templatesyard.blogspot.in/templatesyard</b:widget-setting>
               <b:widget-setting name='link-3'>#</b:widget-setting>
@@ -332,6 +318,7 @@ var followByEmailtext = "Get E-mail updates about our latest shop and special of
               <b:widget-setting name='link-1'>#</b:widget-setting>
               <b:widget-setting name='link-2'>#</b:widget-setting>
               <b:widget-setting name='link-0'>#</b:widget-setting>
+              <b:widget-setting name='link-10'>http://robusta-templatesyard.blogspot.in/templatesyard</b:widget-setting>
             </b:widget-settings>
             <b:includable id='main'>
             <div class='widget-content'>
@@ -352,34 +339,7 @@ var followByEmailtext = "Get E-mail updates about our latest shop and special of
 <div style='clear: both;'/> 
 <div class='email-folower'>
 <div class='row email-folower-wrap'>
-  <b:section class='custom-email-follow' id='Email Subscription Widget' preferred='yes'>
-    <b:widget id='FollowByEmail2' locked='false' title='Follow by Email' type='FollowByEmail' version='1'>
-      <b:includable id='main'>
-  <b:if cond='data:title != &quot;&quot;'><h2 class='title'><data:title/></h2></b:if>
-  <div class='widget-content'>
-    <div class='follow-by-email-inner'>
-      <form action='https://feedburner.google.com/fb/a/mailverify' expr:onsubmit='&quot;window.open(\&quot;https://feedburner.google.com/fb/a/mailverify?uri=&quot; + data:feedPath + &quot;\&quot;, \&quot;popupwindow\&quot;, \&quot;scrollbars=yes,width=550,height=520\&quot;); return true&quot;' method='post' target='popupwindow'>
-        <table width='100%'>
-          <tr>
-            <td>
-              <input class='follow-by-email-address' name='email' placeholder='Email address...' type='text'/>
-            </td>
-            <td width='64px'>
-              <input class='follow-by-email-submit' type='submit' value='?'/>
-            </td>
-          </tr>
-        </table>
-        <input expr:value='data:feedPath' name='uri' type='hidden'/>
-        <input name='loc' type='hidden' value='en_US'/>
-      </form>
-    </div>
-  </div>
-  <span class='item-control blog-admin'>
-    <b:include name='quickedit'/>
-  </span>
-</b:includable>
-    </b:widget>
-  </b:section>
+  <b:section class='custom-email-follow' id='Email Subscription Widget' preferred='yes'/>
   </div>
   </div>
 <div style='clear: both;'/>
@@ -387,7 +347,7 @@ var followByEmailtext = "Get E-mail updates about our latest shop and special of
 
     <div id='main-wrapper'>
    <b:section class='main' id='main' showaddelement='yes'>
-     <b:widget id='Blog1' locked='true' title='Blog Posts' type='Blog' version='1'>
+     <b:widget id='Blog1' locked='true' title='블로그 게시물' type='Blog' version='1'>
        <b:widget-settings>
          <b:widget-setting name='showDateHeader'>true</b:widget-setting>
          <b:widget-setting name='style.textcolor'>#363f4d</b:widget-setting>
@@ -399,10 +359,11 @@ var followByEmailtext = "Get E-mail updates about our latest shop and special of
          <b:widget-setting name='style.linkcolor'>#eb3e32</b:widget-setting>
          <b:widget-setting name='style.unittype'>TextAndImage</b:widget-setting>
          <b:widget-setting name='style.bgcolor'>#ffffff</b:widget-setting>
+         <b:widget-setting name='timestampLabel'>on</b:widget-setting>
          <b:widget-setting name='showAuthorProfile'>false</b:widget-setting>
          <b:widget-setting name='style.layout'>1x1</b:widget-setting>
          <b:widget-setting name='showLabels'>true</b:widget-setting>
-         <b:widget-setting name='showLocation'>true</b:widget-setting>
+         <b:widget-setting name='showLocation'>false</b:widget-setting>
          <b:widget-setting name='showTimestamp'>true</b:widget-setting>
          <b:widget-setting name='postsPerAd'>1</b:widget-setting>
          <b:widget-setting name='showBacklinks'>false</b:widget-setting>
@@ -1681,227 +1642,51 @@ width: 100%;
 
   <div id='sidebar-wrapper'>
   <b:section class='sidebar ty-trigger' id='sidebar1' preferred='yes'>
-    <b:widget id='HTML2' locked='false' title='Follow Us' type='HTML' version='1'>
+    <b:widget id='Label1' locked='false' title='Tags' type='Label' version='1'>
       <b:widget-settings>
-        <b:widget-setting name='content'>&lt;a href=&quot;#&quot;&gt;
-&lt;div class=&quot;fb-icon-bg&quot;&gt;&lt;/div&gt;
-    &lt;div class=&quot;fb-bg&quot;&gt;&lt;/div&gt;&lt;/a&gt;
-  &lt;a href=&quot;#&quot;&gt;
-  &lt;div class=&quot;twi-icon-bg&quot;&gt;&lt;/div&gt;
-    &lt;div class=&quot;twi-bg&quot;&gt;&lt;/div&gt;&lt;/a&gt;
-  &lt;a href=&quot;#&quot;&gt;
-  &lt;div class=&quot;g-icon-bg&quot;&gt;&lt;/div&gt;
-    &lt;div class=&quot;g-bg&quot;&gt;&lt;/div&gt;
-  &lt;/a&gt;
-&lt;a href=&quot;linkedin-url&quot;&gt;
-  &lt;div class=&quot;lin-icon-bg&quot;&gt;&lt;/div&gt;
-    &lt;div class=&quot;lin-bg&quot;&gt;&lt;/div&gt;
-  &lt;/a&gt;
-&lt;a href=&quot;instagram-url&quot;&gt;
-  &lt;div class=&quot;ins-icon-bg&quot;&gt;&lt;/div&gt;
-    &lt;div class=&quot;ins-bg&quot;&gt;&lt;/div&gt;
-  &lt;/a&gt;
-&lt;style&gt;
-.fb-bg:hover, .twi-bg:hover, .g-bg:hover, .ins-bg:hover, .lin-bg:hover {background:#303030;}
-.fb-icon-bg {
-	background: #354f88;
-	height: 37px;
-	margin: 0 0 -37px 0;
-	width: 41px; 
-}
-
-.fb-icon-bg:after {
- content: &quot;\f09a&quot;; font-family: FontAwesome;
-  display: block;
-  padding: 9px 10px 5px 15px;
-color:#fff;
-}
-
-.fb-bg {
-	background: #3b5998;
-	display: block;
-	height: 37px;
-	margin: 0 0 10px 41px;
-}
-
-.fb-bg:after {
-	color: #fff;
-	content: &quot;Facebook&quot;;
-	height: 37px;
-	left: 8%;
-	position: relative;
-	
-	top: 22%;
-	width: 41px; 
-}
-
-.fb-bg:hover{
-  cursor: pointer;
-}
-
-.fb-bg:active{
-  background: #354f88;
-}
-
-/* Twitter */
-.twi-icon-bg:after {
- content: &quot;\f099&quot;; font-family: FontAwesome;
-  display: block;
-  padding: 11px 10px 6px 11px;
-color:#fff;
-}
-
-.twi-icon-bg {
-	background: #40a2d1;
-	height: 37px;
-	margin: 0 0 -37px 0;
-	width: 41px; 
-}
-
-.twi-bg {
-	background: #45b0e3;
-	height: 37px;
-	margin: 0 0 10px 41px;
-}
- 
-.twi-bg:after {
-	color: #fff;
-	content: &quot;Twitter&quot;;
-	height: 37px;
-  left: 11%;
-	position: relative;
-
-	top: 22%;
-  width: 41px; 
-}
-
-.twi-bg:hover {
-  cursor: pointer;
-}
-
-.twi-bg:active {
-  background: #40a2d1;
-}
-
-/* Google+ */
-.g-icon-bg:after {
- content: &quot;\f0d5&quot;; font-family: FontAwesome;
-  display: block;
-  padding: 11px 10px 6px 13px;
-color:#fff;
-}
-
-.g-icon-bg {
-	background: #ce3e26;
-	height: 37px;
-	margin: 0 0 -37px 0;
-	width: 41px; 
-}
- 
-.g-bg {
-	background: #de4c34;
-	height: 37px;
-	    margin: 0 0 10px 41px;
-}
- 
-.g-bg:after {
-	color: #fff;
-	content: &quot;Google+&quot;;
-	height: 37px;
-	left: 10%;
-	position: relative;
-	
-	top: 22%;
-	width: 41px; 
-}
-
-.g-bg:hover {
-  cursor: pointer;
-}
-.lin-icon-bg {
-    background: #075e8c;
-    height: 37px;
-    margin: 0 0 -37px 0;
-    width: 41px;
-}
-.lin-icon-bg:after {
-    content: &quot;\f0e1&quot;;
-    font-family: FontAwesome;
-    display: block;
-    padding: 11px 10px 6px 13px;
-    color: #fff;
-}
-.lin-bg {
-    background: #0077B5;
-    height: 37px;
-    margin: 0 0 10px 41px;
-}
-.lin-bg:after {
-    color: #fff;
-    content: &quot;Follow up on Linkedin&quot;;
-    height: 37px;
-    left: 10%;
-    position: relative;
-    top: 22%;
-    width: 41px;
-}
-.ins-icon-bg {
-    background: #ffc238;
-    height: 37px;
-    margin: 0 0 -37px 0;
-    width: 41px;
-}
-.ins-icon-bg:after {
-    content: &quot;\f16d&quot;;
-    font-family: FontAwesome;
-    display: block;
-    padding: 11px 10px 6px 13px;
-    color: #fff;
-}
-.ins-bg {
-    background: #ffd438;
-    height: 37px;
-    margin-left: 41px;
-}
-.ins-bg:after {
-    color: #fff;
-    content: &quot;Follow us on Instagram&quot;;
-    height: 37px;
-    left: 10%;
-    position: relative;
-    top: 22%;
-    width: 41px;
-}
-&lt;/style&gt;</b:widget-setting>
+        <b:widget-setting name='sorting'>ALPHA</b:widget-setting>
+        <b:widget-setting name='display'>CLOUD</b:widget-setting>
+        <b:widget-setting name='selectedLabelsList'/>
+        <b:widget-setting name='showType'>ALL</b:widget-setting>
+        <b:widget-setting name='showFreqNumbers'>true</b:widget-setting>
       </b:widget-settings>
       <b:includable id='main'>
-  <!-- only display title if it's non-empty -->
   <b:if cond='data:title != &quot;&quot;'>
-    <h2 class='title'><data:title/></h2>
+    <h2><data:title/></h2>
   </b:if>
-  <div class='widget-content'>
-    <data:content/>
-  </div>
-
-    <div class='clear'/>
+  <div expr:class='&quot;widget-content &quot; + data:display + &quot;-label-widget-content&quot;'>
+    <b:if cond='data:display == &quot;list&quot;'>
+      <ul>
+        <b:loop values='data:labels' var='label'>
+          <li>
+            <b:if cond='data:blog.url == data:label.url'>
+              <span expr:dir='data:blog.languageDirection'><data:label.name/></span>
+            <b:else/>
+              <a expr:dir='data:blog.languageDirection' expr:href='data:label.url'><data:label.name/></a>
+            </b:if>
+            <b:if cond='data:showFreqNumbers'>
+              <span dir='ltr'>(<data:label.count/>)</span>
+            </b:if>
+          </li>
+        </b:loop>
+      </ul>
+    <b:else/>
+      <b:loop values='data:labels' var='label'>
+        <span expr:class='&quot;label-size label-size-&quot; + data:label.cssSize'>
+          <b:if cond='data:blog.url == data:label.url'>
+            <span expr:dir='data:blog.languageDirection'><data:label.name/></span>
+          <b:else/>
+            <a expr:dir='data:blog.languageDirection' expr:href='data:label.url'><data:label.name/></a>
+          </b:if>
+          <b:if cond='data:showFreqNumbers'>
+            <span class='label-count' dir='ltr'>(<data:label.count/>)</span>
+          </b:if>
+        </span>
+      </b:loop>
+    </b:if>
+   <div class='clear'/>
  <!--b:include name='quickedit'/-->
-</b:includable>
-    </b:widget>
-    <b:widget id='HTML4' locked='false' title='Facebook' type='HTML' version='1'>
-      <b:widget-settings>
-        <b:widget-setting name='content'><![CDATA[<center><div class="fb-page" data-href="https://www.facebook.com/templatesyard/" data-width="360" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"></div></center>]]></b:widget-setting>
-      </b:widget-settings>
-      <b:includable id='main'>
-  <!-- only display title if it's non-empty -->
-  <b:if cond='data:title != &quot;&quot;'>
-    <h2 class='title'><data:title/></h2>
-  </b:if>
-  <div class='widget-content'>
-    <data:content/>
   </div>
-
-  <div class='clear'/>
- <!--b:include name='quickedit'/-->
 </b:includable>
     </b:widget>
   </b:section>
@@ -1952,23 +1737,6 @@ color:#fff;
      </div>
 <div style='clear: both;'/>
 <b:section class='sidebar ty-trigger' id='sidebar2' preferred='yes'>
-  <b:widget id='HTML5' locked='false' title='Gadget' type='HTML' version='1'>
-    <b:widget-settings>
-      <b:widget-setting name='content'><![CDATA[<span class="tagpost" data-label="Android" data-no="5"></span>]]></b:widget-setting>
-    </b:widget-settings>
-    <b:includable id='main'>
-  <!-- only display title if it's non-empty -->
-  <b:if cond='data:title != &quot;&quot;'>
-    <h2 class='title'><data:title/></h2>
-  </b:if>
-  <div class='widget-content'>
-    <data:content/>
-  </div>
-
-   <div class='clear'/>
- <!--b:include name='quickedit'/-->
-</b:includable>
-  </b:widget>
   <b:widget id='BlogArchive1' locked='false' title='Blog Archive' type='BlogArchive' version='1'>
     <b:widget-settings>
       <b:widget-setting name='showStyle'>MENU</b:widget-setting>
@@ -2050,51 +1818,21 @@ color:#fff;
   </a>
 </b:includable>
   </b:widget>
-  <b:widget id='Label1' locked='false' title='Tags' type='Label' version='1'>
+  <b:widget id='HTML5' locked='false' title='Gadget' type='HTML' version='1'>
     <b:widget-settings>
-      <b:widget-setting name='sorting'>ALPHA</b:widget-setting>
-      <b:widget-setting name='display'>CLOUD</b:widget-setting>
-      <b:widget-setting name='selectedLabelsList'/>
-      <b:widget-setting name='showType'>ALL</b:widget-setting>
-      <b:widget-setting name='showFreqNumbers'>true</b:widget-setting>
+      <b:widget-setting name='content'><![CDATA[<span class="tagpost" data-label="Android" data-no="5"></span>]]></b:widget-setting>
     </b:widget-settings>
     <b:includable id='main'>
+  <!-- only display title if it's non-empty -->
   <b:if cond='data:title != &quot;&quot;'>
-    <h2><data:title/></h2>
+    <h2 class='title'><data:title/></h2>
   </b:if>
-  <div expr:class='&quot;widget-content &quot; + data:display + &quot;-label-widget-content&quot;'>
-    <b:if cond='data:display == &quot;list&quot;'>
-      <ul>
-        <b:loop values='data:labels' var='label'>
-          <li>
-            <b:if cond='data:blog.url == data:label.url'>
-              <span expr:dir='data:blog.languageDirection'><data:label.name/></span>
-            <b:else/>
-              <a expr:dir='data:blog.languageDirection' expr:href='data:label.url'><data:label.name/></a>
-            </b:if>
-            <b:if cond='data:showFreqNumbers'>
-              <span dir='ltr'>(<data:label.count/>)</span>
-            </b:if>
-          </li>
-        </b:loop>
-      </ul>
-    <b:else/>
-      <b:loop values='data:labels' var='label'>
-        <span expr:class='&quot;label-size label-size-&quot; + data:label.cssSize'>
-          <b:if cond='data:blog.url == data:label.url'>
-            <span expr:dir='data:blog.languageDirection'><data:label.name/></span>
-          <b:else/>
-            <a expr:dir='data:blog.languageDirection' expr:href='data:label.url'><data:label.name/></a>
-          </b:if>
-          <b:if cond='data:showFreqNumbers'>
-            <span class='label-count' dir='ltr'>(<data:label.count/>)</span>
-          </b:if>
-        </span>
-      </b:loop>
-    </b:if>
+  <div class='widget-content'>
+    <data:content/>
+  </div>
+
    <div class='clear'/>
  <!--b:include name='quickedit'/-->
-  </div>
 </b:includable>
   </b:widget>
 </b:section>
@@ -2203,30 +1941,18 @@ color:#fff;
 <div style='clear: both;'/> 
 </div> 
 </div>
-<div id='jugas_footer'>
+<div id='jugas_footer' style='visibility:hidden;'>
         <div class='copy-container row'>
          
                     <div class='jugas_footer_copyright'>
-                        Designed with <i aria-hidden='true' class='fa fa-heart' style='color: red;'/> by <a href='http://www.templatesyard.com/' id='mycontent' rel='dofollow' title='Free Blogger Templates'>TemplatesYard</a> | Distributed by <a href='https://www.gooyaabitemplates.com/' rel='dofollow' target='_blank' style='color:#eb3e32;'>Blogspot Themes</a>
+                        Designed with <i aria-hidden='true' class='fa fa-heart' style='color: red;'/> by <a href='http://www.templatesyard.com/' id='mycontent' rel='dofollow' title='Free Blogger Templates'>TemplatesYard</a> | Distributed by <a href='https://www.gooyaabitemplates.com/' rel='dofollow' style='color:#eb3e32;' target='_blank'>Blogspot Themes</a>
                     </div>
                <b:section class='bottom-bar-social blue' id='Footer social widget' maxwidgets='1' name='Footer Social Widget' showaddelement='no'>
                  <b:widget id='LinkList236' locked='true' title='Social Media Icons' type='LinkList' version='1'>
                    <b:widget-settings>
-                     <b:widget-setting name='link-5'>#</b:widget-setting>
-                     <b:widget-setting name='link-6'>#</b:widget-setting>
-                     <b:widget-setting name='link-3'>#</b:widget-setting>
-                     <b:widget-setting name='link-4'>#</b:widget-setting>
-                     <b:widget-setting name='text-1'>facebook</b:widget-setting>
-                     <b:widget-setting name='text-0'>twitter</b:widget-setting>
-                     <b:widget-setting name='text-3'>instagram</b:widget-setting>
-                     <b:widget-setting name='text-2'>gplus</b:widget-setting>
-                     <b:widget-setting name='text-5'>youtube</b:widget-setting>
-                     <b:widget-setting name='text-4'>rss</b:widget-setting>
-                     <b:widget-setting name='text-6'>pinterest</b:widget-setting>
                      <b:widget-setting name='sorting'>NONE</b:widget-setting>
-                     <b:widget-setting name='link-1'>#</b:widget-setting>
-                     <b:widget-setting name='link-2'>#</b:widget-setting>
-                     <b:widget-setting name='link-0'>#</b:widget-setting>
+                     <b:widget-setting name='text-0'>instagram</b:widget-setting>
+                     <b:widget-setting name='link-0'>http://instagram.com/juicyjusung</b:widget-setting>
                    </b:widget-settings>
                    <b:includable id='main'>
             <div class='widget-content'>
