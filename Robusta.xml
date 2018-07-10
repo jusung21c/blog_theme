@@ -2644,7 +2644,7 @@ select#BlogArchive1_ArchiveMenu {
         line-height: 24px;
     }
 }
-* {font-family: NanumGothic, 나눔고딕 !important};]]></b:skin>
+* {font-family: 'Jeju Gothic', sans-serif !important};]]></b:skin>
 <style>
 /*-------Typography and ShortCodes-------*/
 .firstcharacter {
