@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>{{files.0.name}}</title>
+<link rel="stylesheet" href="https://stackedit.io/style.css" />
+<link href='https://fonts.googleapis.com/css?family=Amaranth:400' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Open+Sans:400,400italic,700' rel='stylesheet' type='text/css'>
+
+<script src="https://cdn.rawgit.com/google/code-prettify/master/loader/run_prettify.js"></script>
+
+  <style>
+@import url(http://fonts.googleapis.com/earlyaccess/jejugothic.css);
+@import url('https://fonts.googleapis.com/css?family=Nanum+Gothic|PT+Sans&subset=korean');
+
+
+div{
+ font-family: 'Jeju Gothic', sans-serif;
+line-height:1.6em;
+}
+h1 {
+	color: #111;
+ font-family: 'Jeju Gothic', sans-serif;
+	font-size: 40px;
+	font-weight: 900;
+	line-height: 40px;
+	margin-bottom: 40px;
+	padding-left: 40px;
+	position: relative;
+}
+
+h1:before {
+	background: #111;
+	content: '';
+	display: block;
+	height: 60px;
+	left: 0px;
+	position: absolute;
+	top: 10px;
+	width: 6px;
+}
+pre, code{
+ font-family: 'Jeju Gothic', sans-serif;
+	line-height: 30px;
+	font-size: 14px;
+}
+p {
+	color: #444;
+'Jeju Gothic', sans-serif;
+/*	font-size: 14px;
+	font-weight: 500;*/   
+	line-height: 30px;
+/*	text-indent: 13px; */
+	margin-left: 10px; 
+}
+
+a {
+	color: #0abfdc;	font-weight: bold;
+}
+
+a:hover {
+	color: #111;
+}
+.jejugothic * { /** 폰트 영문 이름 지정 **/
+ font-family: 'Jeju Gothic', sans-serif;
+}
+
+/** 이하는 공통 **/
+.normal {
+ font-style: normal;
+}
+
+.w250 {
+ font-weight: 250;
+}
+
+.w300 {
+ font-weight: 300;
+}
+
+.w350 {
+ font-weight: 350;
+}
+
+.w400 {
+ font-weight: 400;
+}
+
+.w500 {
+ font-weight: 500;
+}
+
+.w700 {
+ font-weight: 700;
+}
+
+.w800 {
+ font-weight: 800;
+}
+
+.w900 {
+ font-weight: 900;
+}
+
+li span {
+ line-height: 1.8;
+ font-size: 1.3em;
+}
+  </style>
+</head>
+
+<body class="stackedit">
+    <div class="stackedit__html">
+{{#transform}}{{{files.0.content.html}}}{{/transform}}
+  </div>
+</body>
+</html>
+
+
+
+
+=========================================
+
+
+
+
+
+Handlebars.registerHelper('transform', function (options) {
+  var result = options.fn(this);
+  return new Handlebars.SafeString(
+result.replace(/<img/g, '<img style="margin-left: auto; margin-right: auto; display: block;"').replace(/<a/g, '<a target="_blank"').replace(/<pre/g,'<pre class="prettyprint"'));
+});
