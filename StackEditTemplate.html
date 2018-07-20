@@ -28,6 +28,7 @@ h1 {
 	line-height: 40px;
 	margin-bottom: 40px;
 	padding-left: 40px;
+	padding-bottom: 40px;
 	position: relative;
 }
 
@@ -48,7 +49,7 @@ pre, code{
 }
 p {
 	color: #444;
-'Jeju Gothic', sans-serif;
+ font-family: 'Jeju Gothic', sans-serif;
 /*	font-size: 14px;
 	font-weight: 500;*/   
 	line-height: 30px;
@@ -57,7 +58,7 @@ p {
 }
 
 a {
-	color: #0abfdc;	font-weight: bold;
+	color: #0abfdc;	font-weight: 400;
 }
 
 a:hover {
@@ -117,18 +118,3 @@ li span {
   </div>
 </body>
 </html>
-
-
-
-
-=========================================
-
-
-
-
-
-Handlebars.registerHelper('transform', function (options) {
-  var result = options.fn(this);
-  return new Handlebars.SafeString(
-result.replace(/<img/g, '<img style="margin-left: auto; margin-right: auto; display: block;"').replace(/<a/g, '<a target="_blank"').replace(/<pre/g,'<pre class="prettyprint"'));
-});
