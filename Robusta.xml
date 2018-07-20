@@ -747,7 +747,7 @@ ul#nav {
 #menu ul > li:hover > a {}
 #menu ul > li > a {
     color: #fff;
-    font-size: 14px;
+    font-size: 16px;
     font-weight: 600;
     line-height: 50px;
     display: inline-block;
@@ -756,7 +756,7 @@ ul#nav {
     letter-spacing: 1px;
     margin: 0;
     padding: 0 12px;
-    font-family: Oswald;
+    font-family: 'Jeju Gothic', sans-serif;
 }
 #menu ul > li:first-child > a {
     padding-left: 0;
@@ -1067,10 +1067,11 @@ article {
     line-height: 44px;
 }
 .post h2 {
+	font-family: 'Jeju Gothic', sans-serif;
     margin-bottom: 12px;
     line-height: 1.3em;
     font-size: 22px;
-    font-weight: 400;
+    font-weight: 800;
 }
 .post h2 a {
     color: #000;
@@ -1199,10 +1200,12 @@ article {
     color: #343434;
 }
 .resumo span {
+	font-family: 'Jeju Gothic', sans-serif;
+	font-weight : 600;
     display: block;
     margin-bottom: 8px;
     font-size: 14px;
-    line-height: 22px;
+    line-height: 22px;	
     text-align: justify;
 }
 .post-body img {
@@ -2644,7 +2647,7 @@ select#BlogArchive1_ArchiveMenu {
         line-height: 24px;
     }
 }
-* {font-family: 'Jeju Gothic', sans-serif !important};]]></b:skin>
+;]]></b:skin>
 <style>
 /*-------Typography and ShortCodes-------*/
 .firstcharacter {
@@ -3113,7 +3116,7 @@ var followByEmailtext = "Get E-mail updates about our latest shop and special of
       <b:section class='headerleft' id='headerleft' maxwidgets='1' showaddelement='no'>
          <b:widget id='Header1' locked='true' title='기억력이 안좋아서 만든 블로그(헤더)' type='Header' version='1'>
            <b:widget-settings>
-             <b:widget-setting name='displayUrl'>https://lh3.googleusercontent.com/X965SYntZudhH4F872erSDJdYN-8suOH2KNKkzAZh-RmDoHYjRd4haA1bK1wsy_28iTrty_piJFxcxWTmCqLjUberqoMXLXUej3C4xDgclM_ryqDAivQDcQRxWJZpJfH95XmnmChz-_N-F_EwAvo3ANtqLcIcpJ1bcSuDdlOgUghzj0VtxY0ARu3tGsB_tJ_LpM5dkUv7ZkZbPH9rqnyAQo24CppgpxS1ksxmb0D7e580YA1KdCIjP501VCRM2H0AVQYUlYBazefpqv--iEFLyu_nsosrIOjyFgxXezkTQQZGyu6gc3r515Cdfr3XQyFynIbhfT-34VYE8Wv7hThBgs7fKrEGLuqltT1Kb-4b-dhJaAbZpMqpcXL7zWd7SalnQduUdCsrldzcs4bLm8lY_W3U4804P4LuacoFqcLV6uIFRP0syzr7GXUAOBrmkva9Ug__VEPdMfmyE0kjFbazrmrkvRemn1Zo2IgJfq-V7rSriHwW34Wky6vIdZuEIqyyb7dPNIlVgYBQpfu1jrWVW3p6HK4EkTGsG0jv6sfpdABa3IAxKvnI04qbjsFJwzQT1sKWxNpHeYj3cRpFBu_xD1kDd_fYelBZDC443_d=w723-h131-no</b:widget-setting>
+             <b:widget-setting name='displayUrl'>https://lh3.googleusercontent.com/yLBleZN093OlON-DGllKw79HzO0-rw3OWaMUbxme9nAzh28wYs_tqCL5_wKZPW80gO-hgelgSvNkluasxet1tC6V67RKhgjROszLOFt4vXDmM6NXnL1RDx0NNve-AC_QFLEfeZSrCrQXCh7uPSck2GszYL21IrvEbTe6IfW0q6goujnpCTJyvqMhz0eCu14PybLRR968U2KitBTatVTBC4FmXIe92j_Wz6g9vNMf_lo5oB5grmhqtI2zHQfNSd_6LRhSVyunQEtWIQJG6AThBG1nByKwJvR0rK4kqyuJ_mXFp2WoPOn7TFPUuKClgxcxYkYnT45_Npjdeb95Yz9qLQ44u5h7mgIwqn299ZsAhwATX-qSvBy8sIDDBSiST8VT-egIwZBYlvteNJ9KLeQv-W3nAX1EXviGaIv6lYeG9M_3Dis8SoWA6msAuF7nu9Nrz14EXXXa6VLWafZxzPkvxPv7a0pTpMerZ-KOxmN_NPzttAjdYcIcyAYKKwt74vHjo0FZLpjObKdYvPo0MauZ979a56Vbmt-PFcfWh-oTzDeI_1lwr0FulW0btM6PJi09fer3Jr7hfKZB3-Ob8M0jItTc0gL3qWhjWm9RTiBs=w700-h120-no</b:widget-setting>
              <b:widget-setting name='displayHeight'>100</b:widget-setting>
              <b:widget-setting name='sectionWidth'>354</b:widget-setting>
              <b:widget-setting name='useImage'>true</b:widget-setting>
@@ -3215,29 +3218,13 @@ var followByEmailtext = "Get E-mail updates about our latest shop and special of
         <b:section class='menu' id='menu' maxwidgets='1' name='Main Menu' showaddelement='yes'>
           <b:widget id='LinkList210' locked='true' title='Menu' type='LinkList' version='1'>
             <b:widget-settings>
-              <b:widget-setting name='text-9'><![CDATA[&lt;i class=&quot;fa fa-briefcase&quot;&gt;&lt;/i&gt; Download this Template]]></b:widget-setting>
-              <b:widget-setting name='link-9'>http://www.templatesyard.com/2018/03/robusta-blog-blogger-template.html</b:widget-setting>
-              <b:widget-setting name='text-8'><![CDATA[&lt;i class=&quot;fa fa-book&quot;&gt;&lt;/i&gt; Documentation]]></b:widget-setting>
-              <b:widget-setting name='link-7'>http://www.shardawebservices.com/</b:widget-setting>
-              <b:widget-setting name='link-8'>https://www.sorabloggingtips.com/2018/03/how-to-setup-robusta-blogger-template.html</b:widget-setting>
-              <b:widget-setting name='text-10'>_Error Page</b:widget-setting>
-              <b:widget-setting name='link-5'>https://www.sorabloggingtips.com/2017/01/how-to-add-sitemap-widget-in-blogspot-blogs.html</b:widget-setting>
-              <b:widget-setting name='link-6'>http://robusta-templatesyard.blogspot.in/templatesyard</b:widget-setting>
-              <b:widget-setting name='link-3'>#</b:widget-setting>
-              <b:widget-setting name='link-4'>http://robusta-templatesyard.blogspot.in/p/post-format-and-page-markup.html</b:widget-setting>
-              <b:widget-setting name='text-1'>_Multi DropDown</b:widget-setting>
-              <b:widget-setting name='text-0'><![CDATA[&lt;i class=&quot;fa fa-cog&quot;&gt;&lt;/i&gt; Features]]></b:widget-setting>
-              <b:widget-setting name='text-3'>__DropDown 2</b:widget-setting>
-              <b:widget-setting name='text-2'>__DropDown 1</b:widget-setting>
-              <b:widget-setting name='text-5'>_SiteMap</b:widget-setting>
-              <b:widget-setting name='text-4'>_ShortCodes</b:widget-setting>
-              <b:widget-setting name='text-7'><![CDATA[&lt;i class=&quot;fa fa-cubes&quot;&gt;&lt;/i&gt; Seo Services]]></b:widget-setting>
-              <b:widget-setting name='text-6'>_Error Page</b:widget-setting>
               <b:widget-setting name='sorting'>NONE</b:widget-setting>
-              <b:widget-setting name='link-1'>#</b:widget-setting>
+              <b:widget-setting name='text-1'>__개발</b:widget-setting>
+              <b:widget-setting name='link-1'>https://juicyjusung.blogspot.com/search/label/%EA%B0%9C%EB%B0%9C</b:widget-setting>
+              <b:widget-setting name='text-0'><![CDATA[&lt;i class=&quot;fa fa-list&quot;&gt;&lt;/i&gt; 카테고리]]></b:widget-setting>
               <b:widget-setting name='link-2'>#</b:widget-setting>
               <b:widget-setting name='link-0'>#</b:widget-setting>
-              <b:widget-setting name='link-10'>http://robusta-templatesyard.blogspot.in/templatesyard</b:widget-setting>
+              <b:widget-setting name='text-2'>__DropDown 2</b:widget-setting>
             </b:widget-settings>
             <b:includable id='main'>
             <div class='widget-content'>
@@ -3274,7 +3261,7 @@ var followByEmailtext = "Get E-mail updates about our latest shop and special of
          <b:widget-setting name='authorLabel'>By</b:widget-setting>
          <b:widget-setting name='showCommentLink'>true</b:widget-setting>
          <b:widget-setting name='style.urlcolor'>#222222</b:widget-setting>
-         <b:widget-setting name='showAuthor'>false</b:widget-setting>
+         <b:widget-setting name='showAuthor'>true</b:widget-setting>
          <b:widget-setting name='style.linkcolor'>#eb3e32</b:widget-setting>
          <b:widget-setting name='style.unittype'>TextAndImage</b:widget-setting>
          <b:widget-setting name='style.bgcolor'>#ffffff</b:widget-setting>
@@ -3283,7 +3270,7 @@ var followByEmailtext = "Get E-mail updates about our latest shop and special of
          <b:widget-setting name='style.layout'>1x1</b:widget-setting>
          <b:widget-setting name='showLabels'>true</b:widget-setting>
          <b:widget-setting name='showLocation'>false</b:widget-setting>
-         <b:widget-setting name='showTimestamp'>false</b:widget-setting>
+         <b:widget-setting name='showTimestamp'>true</b:widget-setting>
          <b:widget-setting name='postsPerAd'>1</b:widget-setting>
          <b:widget-setting name='showBacklinks'>false</b:widget-setting>
          <b:widget-setting name='style.bordercolor'>#ffffff</b:widget-setting>
@@ -4069,7 +4056,7 @@ var followByEmailtext = "Get E-mail updates about our latest shop and special of
 <p>
 <b>About <data:post.author/></b>
   <br/>
-<span>Templatesyard is a blogger resources site is a provider of high quality blogger template with premium looking layout and robust design. The main mission of templatesyard is to provide the best quality blogger templates.</span>
+<span>개발 할줄 몰라요.</span>
  </p>
 </div>
                  <div style='clear:both'/>    
